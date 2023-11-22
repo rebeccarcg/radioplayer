@@ -1,0 +1,16 @@
+
+1. Explain the importance of semantic elements in web development according to accessibility guidelines. 
+Provide examples of at least two semantic HTML elements and clarify how they enhance accessibility for users with disabilities.
+
+nav-baren är ett exempel: 
+
+<nav> är den navigationsdelen på en webbsida där du hittar länkar till olika sektioner.
+Det gör webbsidor enklare att använda genom att erbjuda en strukturerad och enkel navigationsmeny.
+Om du är blind kan du navigera på hemsidan med hjälp av nav baren med hjälp av ljud 
+
+Om du är blind, kan du använda en speciell funktion på webbsidan som kallas "nav bar" (navigationsmeny) 
+för att röra dig runt på sidan. Istället för att använda ögonen för att se sidan använder du ljudinformation som genereras av en skärmläsare.
+Skärmläsaren läser upp text och beskrivningar högt, och med hjälp av navigationsmenyn, 
+som ofta skapas med hjälp av det semantiska <nav>-elementet i HTML, kan du hoppa direkt till olika delar av webbsidan. 
+Det gör att du kan utforska och använda webbsidor på ett sätt som är anpassat för att möta dina behov och göra webben tillgänglig även utan synförmåga.
+
