@@ -4,13 +4,63 @@ Provide examples of at least two semantic HTML elements and clarify how they enh
 
 nav-baren är ett exempel: 
 
-<nav> är den navigationsdelen på en webbsida där du hittar länkar till olika sektioner.
-Det gör webbsidor enklare att använda genom att erbjuda en strukturerad och enkel navigationsmeny.
-Om du är blind kan du navigera på hemsidan med hjälp av nav baren med hjälp av ljud 
+nav är navigationsdelen på en webbsida där man kan hitta länkar till olika sektioner på webbsidan.
+Det gör den enklare att använda genom att lättare navigera i en enkel navigationsmeny.
+Om du är blind kan du navigera på hemsidan med hjälp av nav baren med hjälp av ljud. 
+Istället för att använda ögonen för att se sidan använder du ljudinformation som genereras av en skärmläsare.
+Skärmläsaren läser upp text och beskrivningar högt, och med hjälp av navigationsmenyn, kan du hoppa direkt till olika delar av webbsidan. 
+Det gör att du kan utforska och använda webbsidor på ett sätt som är anpassat för att möta det du söker och göra webben tillgänglig 
+även för de utan synförmåga.
 
-Om du är blind, kan du använda en speciell funktion på webbsidan som kallas "nav bar" (navigationsmeny) 
-för att röra dig runt på sidan. Istället för att använda ögonen för att se sidan använder du ljudinformation som genereras av en skärmläsare.
-Skärmläsaren läser upp text och beskrivningar högt, och med hjälp av navigationsmenyn, 
-som ofta skapas med hjälp av det semantiska <nav>-elementet i HTML, kan du hoppa direkt till olika delar av webbsidan. 
-Det gör att du kan utforska och använda webbsidor på ett sätt som är anpassat för att möta dina behov och göra webben tillgänglig även utan synförmåga.
+<button>-elementet fungerar som en tillgänglig och användarvänlig lösning för att skapa interaktivitet 
+på webbsidor, särskilt med hänsyn till behoven hos personer med olika funktionsnedsättningar. 
+Det tolkas automatiskt som en interaktiv knapp vilket underlättar för användare med 
+synnedsättningar att navigera och utföra handlingar på webbsidor. 
+
+
+2.  Describe the significance of color contrast in web design concerning accessibility. 
+How does adhering to color contrast guidelines benefit users with visual impairments, 
+and what are the recommended contrast ratios as per WCAG standards?
+
+Det är viktigt med skillanden på färg på exempelvis text och bakgrund, eller en knapp och en texten på knappen både för 
+att göra det tillgängligt för användare som är färgblinda eller har en annan synnedsättnig, det gör innehållet mer 
+läsbart och skapar en inkluderande miljö. WCAG ger specifika rekommendationer för färgkontrastförhållanden. 
+Det mest använda förhållandet är 4,5:1 för normal text och 3:1 för stor text (18 punkter eller 14 punkter fetstil). 
+
+3. Discuss the role of alternative text (alt text) for images in accordance with accessibility guidelines. 
+Why is it crucial to include descriptive alt text, and how does this contribute to making web content more accessible? 
+Provide examples to illustrate your explanation.
+
+Det kan hjälpa till att söka och navigera på hemsidan, om det exempelvis är en error med bildfilen, eller dålig internetuppkoppling
+och det hjälper även personer med synnedsättning att ta del av bildens innehåll. Sociala medieikoner är ett exempel, där alt texten 
+beskriver vad varje ikon gör ("Dela på Twitter", "Dela på LinkedIn" osv.).
+
+4. Explain the purpose of landmarks in creating accessible web content. 
+How do landmarks aid in navigation for users of assistive technologies, 
+and can you provide examples of commonly used landmark elements in HTML?
+
+
+Med hjälp av landmärken har blinda användare som använder en skärmläsare möjligheten att 
+hoppa till olika sektioner på en webbsida. 
+I HTML finns det några semantiska element som kan användas för att definiera olika delar av en webbsida och det är: 
+<header>
+<nav>
+<main>
+<aside>
+<section>
+<footer>
+
+
+5. Describe the significance of proper form labeling. Why is it important to label form elements,
+ and what strategies can developers implement to ensure effective labeling for improved accessibility?
+
+Etiketter är avgörande för blinda användare, användare med nedsatt syn, andra rörelsehinder 
+eller med minnesförlust. Saknade etiketter gör ett formulär otillgängligt för många användare. 
+HTML-taggen <label> definierar en etikett för flera element, som <input>, <select> och <textarea>.
+HTML-elementet <label> är användbart för skärmläsaranvändare eftersom skärmläsaren kommer att 
+läsa upp etiketten högt när användaren fokuserar på inmatningselementet. Elementet <label> hjälper också 
+användare som har svårt att klicka på små områden som radioknappar eller kryssrutor. När användaren 
+klickar på texten inom <label>-elementet växlar det radioknappen eller kryssrutan. 
+
+
 
